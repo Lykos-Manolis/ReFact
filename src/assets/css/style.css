@@ -1,0 +1,123 @@
+:root{
+    --primary: #FFBF43;
+    --secondary: #333;
+}
+
+::selection{
+    background: var(--secondary);
+    color: var(--primary);
+}
+
+body{
+    background: var(--primary);
+    color: var(--secondary);
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar {
+    background: var(--secondary);
+    padding: 10px;
+    text-align: center;
+    min-height: 20px;
+    max-height: 40px;
+    width: 100%;
+}
+
+.navbar > svg {
+    max-height: 40px;
+    min-height: 20px;
+}
+
+.hero {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 20px;
+}
+
+.header > h1{
+    height: 170px;
+    display: grid;
+    font-size: 50px;
+}
+
+.header > h1 > span{
+    font-size: 90px;
+}
+
+.header > svg{
+    max-width: 150px;
+}
+
+.quote{
+    font-size: 35px;
+    min-width: 300px;
+    max-width: 1000px;
+    border-left: 2px solid var(--secondary);
+    padding: 0 20px;
+    margin: 10px;
+}
+
+.quote > p {
+    margin: 0;
+}
+
+.btn-container{
+    border-left: 2px dashed var(--secondary);
+    padding: 0 20px;
+    margin: 10px 10px 200px 10px;
+}
+
+.btn-container > button{
+    width: 90px;
+    height: 40px;
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 0.3em;
+    font-size: 11px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--secondary);
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.btn-container > button::after{
+    content: "";
+    width: 88px;
+    height: 38px;
+    border-radius: inherit;
+    position: absolute;
+    border: 1px solid var(--secondary);
+    margin: 8px 0 0 8px;
+}
+
+.btn-container > button:hover::after{
+    display: none;
+}
+
+.btn-container > button:hover{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.btn-container > button:active{
+    background-color: transparent;
+    color: var(--secondary);
+}
