@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReFact/static/css/main.1c974443.css",
+    "main.js": "/ReFact/static/js/main.c820a021.js",
+    "static/js/787.3b5bd845.chunk.js": "/ReFact/static/js/787.3b5bd845.chunk.js",
+    "index.html": "/ReFact/index.html",
+    "main.1c974443.css.map": "/ReFact/static/css/main.1c974443.css.map",
+    "main.c820a021.js.map": "/ReFact/static/js/main.c820a021.js.map",
+    "787.3b5bd845.chunk.js.map": "/ReFact/static/js/787.3b5bd845.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c974443.css",
+    "static/js/main.c820a021.js"
+  ]
+}
